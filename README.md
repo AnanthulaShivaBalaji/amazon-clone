@@ -1,3 +1,7 @@
+# amazon-clone
+
+This application is made for project and practice purposes, using React.js to gain valuable skills for software development practices.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
