@@ -28,6 +28,20 @@ function Home() {
             price={32990}
             rating={4}
           />
+          <Product 
+            id="744810"
+            title="Royal Enfield Continental GT 650"
+            image="https://ic1.maxabout.us/autos/tw_india/R/2021/3/royal-enfield-cgt-650-rocker-red.jpg"
+            price={455678}
+            rating={5}
+          />
+          <Product 
+            id="744810"
+            title="Royal Enfield Continental GT 650"
+            image="https://ic1.maxabout.us/autos/tw_india/R/2021/3/royal-enfield-cgt-650-rocker-red.jpg"
+            price={455678}
+            rating={5}
+          />
         </div>
         
         <div className="Home__row">
@@ -73,7 +87,7 @@ function Home() {
           <Product 
             id="744810"
             title="Royal Enfield Continental GT 650"
-            image="https://stat.overdrive.in/wp-content/odgallery/2017/11/39479_royal_enfield_continentalGT650_1.jpg"
+            image="https://ic1.maxabout.us/autos/tw_india/R/2021/3/royal-enfield-cgt-650-rocker-red.jpg"
             price={455678}
             rating={5}
           />
