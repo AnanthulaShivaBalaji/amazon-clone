@@ -9,7 +9,7 @@ import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 
 function App() {
-  const [{}, dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue();
   useEffect(() => {
     auth.onAuthStateChanged(authUser => {
       console.log('USER IS >>> ', authUser);
@@ -25,7 +25,8 @@ function App() {
         })
       }
       });
-    }, []);
+      }, [dispatch]); // Added dispatch to dependency array
+);
   return (
     //BEM
     <Router>
