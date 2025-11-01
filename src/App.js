@@ -24,9 +24,9 @@ function App() {
           user: null
         })
       }
-      });
-      }, [dispatch]); // Added dispatch to dependency array
-);
+    });
+  }, [dispatch]); // Added dispatch to dependency array
+
   return (
     //BEM
     <Router>
